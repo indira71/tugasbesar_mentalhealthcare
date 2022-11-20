@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">MENTAL HEALTH CARE</string>
+    <string name="nameapk">Name_exercise</string>
+    <string-array name="data_name">
+        <item>Reading</item>
+        <item>Cooking</item>
+        <item>Meditate</item>
+        <item>Palying Game</item>
+        <item>Stretch</item>
+        <item>Jogging</item>
+    </string-array>
+</resources>
