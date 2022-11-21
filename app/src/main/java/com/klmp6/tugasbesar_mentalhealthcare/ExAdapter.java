@@ -18,9 +18,9 @@ public class ExAdapter extends BaseAdapter {
         this.exercises = exercises;
     }
 
-    public ExAdapter(Context context, ArrayList<Exercise> exercises) {
+    public ExAdapter(Context context) {
         this.context = context;
-        this.exercises = exercises;
+        exercises = new ArrayList<>();
     }
 
     @Override

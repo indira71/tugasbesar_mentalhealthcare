@@ -3,35 +3,43 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content"
     xmlns:tools="http://schemas.android.com/tools"
-    android:padding="16dp"
+    android:padding="20dp"
     tools:context=".listActivity">
 
-    <ImageView
-        android:id="@+id/img_photo"
-        android:layout_width="100dp"
-        android:layout_height="150dp"
-        android:scaleType="fitXY" />
-
-    <TextView
-        android:id="@+id/txt_name"
+    <RelativeLayout
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="26dp"
-        android:layout_toEndOf="@id/img_photo"
-        android:text="exercise"
-        android:textSize="18sp"
-        android:textStyle="bold" />
+        android:layout_height="86dp"
+        android:background="@drawable/bg_item">
 
-    <TextView
-        android:id="@+id/txt_description"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/txt_name"
-        android:layout_marginStart="26dp"
-        android:layout_marginTop="10dp"
-        android:layout_toRightOf="@id/img_photo"
-        android:ellipsize="end"
-        android:maxLines="3"
-        android:text="lorem" />
+        <ImageView
+            android:id="@+id/img_photo"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:scaleType="fitXY" />
+
+        <TextView
+            android:id="@+id/txt_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="28dp"
+            android:layout_toEndOf="@id/img_photo"
+            android:text="exercise"
+            android:layout_marginTop="10dp"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/txt_description"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt_name"
+            android:layout_marginStart="28dp"
+            android:layout_marginLeft="28dp"
+            android:layout_marginTop="8dp"
+            android:layout_toRightOf="@id/img_photo"
+            android:ellipsize="end"
+            android:maxLines="3"
+            android:text="lorem" />
+    </RelativeLayout>
 
 </RelativeLayout>

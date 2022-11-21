@@ -16,7 +16,6 @@ import android.widget.ListView;
 import android.widget.Toast;
 
 public class ExerciseFragment extends Fragment {
-    Button gotolist;
 
     // TODO: Rename parameter arguments, choose names that match
     // the fragment initialization parameters, e.g. ARG_ITEM_NUMBER
@@ -32,16 +31,20 @@ public class ExerciseFragment extends Fragment {
     }
 
     @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        View view = inflater.inflate(R.layout.fragment_exercise, container, false);
-        Button gotolist = (Button) view.findViewById(R.id.button);
-        gotolist.setOnClickListener(new View.OnClickListener() {
+    public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                             Bundle savedInstanceState) {
+        // Inflate the layout for this fragment
+        View v = inflater.inflate(R.layout.fragment_exercise, container, false);
+
+        Button lanjut = (Button) v.findViewById(R.id.button);
+        lanjut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 Intent intent = new Intent(getActivity(), listActivity.class);
+                startActivity(intent);
             }
         });
-        return view;
+       return v;
     }
 
 }

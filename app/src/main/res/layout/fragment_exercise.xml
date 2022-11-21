@@ -17,20 +17,33 @@
         android:layout_width="192dp"
         android:layout_height="275dp"
         android:layout_below="@+id/image_ex"
-        android:layout_margin="20dp"
-        android:src="@drawable/gh" />
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="20dp"
+        android:src="@drawable/ilus" />
 
     <TextView
         android:layout_width="184dp"
-        android:layout_height="262dp"
+        android:layout_height="275dp"
         android:layout_below="@+id/image_ex"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="2dp"
-        android:layout_marginTop="31dp"
-        android:layout_marginEnd="13dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="20dp"
         android:layout_toEndOf="@+id/shape"
-        android:text="Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged.
-" />
+        android:text="In this increasingly modern world, many people are starting to care about the importance of maintaining health. Increasing public awareness of health is not limited to physical health, but people are also starting to care about mental health. Because maintaining mental health is not only useful for preventing mental disorders, but can help you become healthier overall" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/image_ex"
+        android:layout_marginStart="30dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="303dp"
+        android:layout_marginEnd="30dp"
+        android:layout_marginRight="30dp"
+        android:layout_marginBottom="30dp"
+        android:text="Mental health itself includes emotional, psychological, and social well-being in one's life. This can affect the way a person thinks, feels, and acts. Mental health also makes it easier for you to determine how you handle stress, relate to other people, and make choices. So maintaining mental health is important at every stage of life, from childhood and youth to adulthood." />
 
     <ImageView
         android:id="@+id/sh"
@@ -38,19 +51,20 @@
         android:layout_height="136dp"
         android:layout_below="@+id/shape"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="39dp"
-        android:layout_marginEnd="17dp"
-        android:src="@drawable/rg" />
+        android:layout_marginTop="130dp"
+        android:layout_marginEnd="21dp"
+        android:src="@drawable/keep" />
 
     <Button
         android:id="@+id/button"
-        android:layout_width="186dp"
-        android:layout_height="68dp"
+        android:layout_width="196dp"
+        android:layout_height="55dp"
         android:layout_below="@+id/sh"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="73dp"
-        android:layout_marginEnd="110dp"
-        android:text="Button" />
+        android:layout_marginTop="15dp"
+        android:layout_marginEnd="108dp"
+        android:background="@drawable/button"
+        android:text="Next" />
 
 
 </RelativeLayout>
