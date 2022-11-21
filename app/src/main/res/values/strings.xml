@@ -9,4 +9,20 @@
         <item>Stretch</item>
         <item>Jogging</item>
     </string-array>
+    <string-array name="data_description">
+        <item>Spark your creativity or inspiration reading books</item>
+        <item>Enhance your focus and empathy</item>
+        <item>Experiment with different ingredients to make perfect dish</item>
+        <item>Keep your muscles flexible, strong and healthy</item>
+        <item>Spark your creativity or inspiration reading books</item>
+        <item>Spark your creativity or inspiration reading books</item>
+    </string-array>
+    <array name="data_photo">
+        <item>@drawable/books</item>
+        <item>@drawable/bk</item>
+        <item>@drawable/sr</item>
+        <item>@drawable/yg</item>
+        <item>@drawable/cs</item>
+        <item>@drawable/books</item>
+    </array>
 </resources>
